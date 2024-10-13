@@ -1,0 +1,61 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.44120069237763326,
+      "y": 6.932078092184688
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Top Start"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Top Close Note"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Top Close to Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Shoot To Mid Close"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Mid Close to Shoot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Mid Shoot to Close Bottom"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Close Bottom to Shoot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "AMP",
+  "choreoAuto": false
+}
