@@ -267,6 +267,9 @@ public class RobotContainer {
     
     opStick.x().whileTrue(
     new StartEndCommand(() -> shooterSubsystem.shootFlywheel(.335), shooterSubsystem::stopFlywheel));
+       
+    opStick.rightTrigger().whileTrue(
+    new StartEndCommand(() -> shooterSubsystem.shootFlywheel(.25), shooterSubsystem::stopFlywheel));
 
     opStick.leftTrigger().whileTrue(
     new StartEndCommand(() -> shooterSubsystem.shootAmp(.35), shooterSubsystem::stopFlywheel));
